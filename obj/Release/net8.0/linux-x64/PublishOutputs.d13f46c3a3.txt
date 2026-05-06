@@ -1,0 +1,17 @@
+C:\Users\Asus\RiderProjects\WebApplication1\WebApplication1\bin\Release\net8.0\linux-x64\publish\WebApplication1
+C:\Users\Asus\RiderProjects\WebApplication1\WebApplication1\bin\Release\net8.0\linux-x64\publish\appsettings.Development.json
+C:\Users\Asus\RiderProjects\WebApplication1\WebApplication1\bin\Release\net8.0\linux-x64\publish\appsettings.json
+C:\Users\Asus\RiderProjects\WebApplication1\WebApplication1\bin\Release\net8.0\linux-x64\publish\WebApplication1.dll
+C:\Users\Asus\RiderProjects\WebApplication1\WebApplication1\bin\Release\net8.0\linux-x64\publish\WebApplication1.runtimeconfig.json
+C:\Users\Asus\RiderProjects\WebApplication1\WebApplication1\bin\Release\net8.0\linux-x64\publish\WebApplication1.pdb
+C:\Users\Asus\RiderProjects\WebApplication1\WebApplication1\bin\Release\net8.0\linux-x64\publish\Microsoft.Data.Sqlite.dll
+C:\Users\Asus\RiderProjects\WebApplication1\WebApplication1\bin\Release\net8.0\linux-x64\publish\Microsoft.EntityFrameworkCore.dll
+C:\Users\Asus\RiderProjects\WebApplication1\WebApplication1\bin\Release\net8.0\linux-x64\publish\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Asus\RiderProjects\WebApplication1\WebApplication1\bin\Release\net8.0\linux-x64\publish\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Asus\RiderProjects\WebApplication1\WebApplication1\bin\Release\net8.0\linux-x64\publish\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\Users\Asus\RiderProjects\WebApplication1\WebApplication1\bin\Release\net8.0\linux-x64\publish\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Asus\RiderProjects\WebApplication1\WebApplication1\bin\Release\net8.0\linux-x64\publish\SQLitePCLRaw.batteries_v2.dll
+C:\Users\Asus\RiderProjects\WebApplication1\WebApplication1\bin\Release\net8.0\linux-x64\publish\SQLitePCLRaw.core.dll
+C:\Users\Asus\RiderProjects\WebApplication1\WebApplication1\bin\Release\net8.0\linux-x64\publish\SQLitePCLRaw.provider.e_sqlite3.dll
+C:\Users\Asus\RiderProjects\WebApplication1\WebApplication1\bin\Release\net8.0\linux-x64\publish\libe_sqlite3.so
+C:\Users\Asus\RiderProjects\WebApplication1\WebApplication1\bin\Release\net8.0\linux-x64\publish\WebApplication1.deps.json

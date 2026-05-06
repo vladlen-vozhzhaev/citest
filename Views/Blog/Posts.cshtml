@@ -1,0 +1,27 @@
+@model IEnumerable<WebApplication1.Models.Post>
+
+@{
+    ViewData["Title"] = "Все посты";
+}
+
+<h2>Все посты блога</h2>
+
+@if (!Model.Any())
+{
+    <p>Пока нет постов. <a href="/Blog/AddPost">Добавьте первый пост!</a></p>
+}
+else
+{
+    @foreach (var post in Model)
+    {
+        <div style="border: 1px solid #ddd; padding: 15px; margin-bottom: 15px; border-radius: 5px;">
+            <h3>@post.Title</h3>
+            <div style="color: #666; font-size: 0.9em;">
+                Автор: @post.Author | Дата: @post.CreatedAt.ToString("dd.MM.yyyy HH:mm")
+            </div>
+            <div style="margin-top: 10px;">
+                @post.Content
+            </div>
+        </div>
+    }
+}

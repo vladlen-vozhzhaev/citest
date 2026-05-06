@@ -1,0 +1,59 @@
+@model WebApplication1.Models.Post
+
+@{
+    ViewData["Title"] = "Добавить пост";
+}
+
+<h2>Добавить новый пост</h2>
+
+<form method="post" asp-action="AddPost" asp-controller="Blog">
+    <div class="form-group">
+        <label for="Title">Заголовок</label>
+        <input type="text" class="form-control" id="Title" name="Title" 
+               asp-for="Title" required />
+    </div>
+
+    <div class="form-group">
+        <label for="Author">Автор</label>
+        <input type="text" class="form-control" id="Author" name="Author" 
+               asp-for="Author" required />
+    </div>
+
+    <div class="form-group">
+        <label for="Content">Контент</label>
+        <textarea class="form-control" id="Content" name="Content" 
+                  asp-for="Content" rows="5" required></textarea>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Добавить пост</button>
+</form>
+
+<style>
+    .form-group {
+        margin-bottom: 15px;
+    }
+    
+    .form-control {
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+    }
+    
+    textarea {
+        font-family: monospace;
+    }
+    
+    .btn-primary {
+        background-color: #007bff;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    
+    .btn-primary:hover {
+        background-color: #0056b3;
+    }
+</style>
