@@ -20,7 +20,13 @@ namespace WebApplication1.Controllers
         {
             return View();
         }
-        
+
+        [HttpGet]
+        public IActionResult Test()
+        {
+            return Content("test");
+        }
+
         // POST: Blog/AddPost - сохраняет пост в БД
         [HttpPost]
         public IActionResult AddPost(Post post)
